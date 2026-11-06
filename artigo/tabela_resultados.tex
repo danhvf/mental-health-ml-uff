@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{Desempenho dos algoritmos no conjunto de teste ($n=252$).}
+\label{tab:metricas}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llccccc@{}}
+\toprule
+\textbf{Grupo} & \textbf{Algoritmo} & \textbf{AUROC} & \textbf{AUPRC} & \textbf{Acurácia} & \textbf{Recall} & \textbf{F1}\\
+\midrule
+A & Regressão logística & 0,698 & 0,731 & 0,663 & 0,648 & 0,661\\
+A & Árvore de decisão & 0,671 & 0,642 & 0,639 & 0,492 & 0,581\\
+A & Random Forest & 0,708 & 0,735 & 0,651 & 0,602 & 0,636\\
+\midrule
+B & Regressão logística & 0,898 & 0,885 & 0,837 & 0,852 & 0,842\\
+B & Árvore de decisão & 0,863 & 0,799 & 0,829 & 0,938 & 0,848\\
+B & Random Forest & 0,883 & 0,857 & 0,798 & 0,828 & 0,806\\
+\bottomrule
+\end{tabular}
+\par\vspace{3pt}{\footnotesize\color{cinzasec}Fonte: elaboração própria com base na OSMI 2014. Limiar 0,5; seleção por AUROC na validação cruzada.}
+\end{table}
