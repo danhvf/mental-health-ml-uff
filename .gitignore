@@ -1,0 +1,14 @@
+# A pesquisa contém comentários livres e dados potencialmente sensíveis.
+data/survey.csv
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+artigo/*.aux
+artigo/*.bbl
+artigo/*.blg
+artigo/*.fdb_latexmk
+artigo/*.fls
+artigo/*.log
+artigo/*.out
+artigo/*.synctex.gz
